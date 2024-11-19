@@ -13,6 +13,32 @@
  * https://github.com/poole/hyde.
  */
 
+.pointing {
+  background-image: url("../manicule.png");
+  background-size: 4em;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 4.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  position: relative;
+  min-height: 50px; }
+
+.copyright {
+  font-size: 0.8em;
+}
+
+.credits {
+  color: grey;
+  font-style: italic;
+  margin-left: 3em;
+  margin-right: 3em;
+  font-size: 0.8em;
+  display: block; }
+
+figure {
+  width: 65%;
+  margin: auto; }
 
 /*
  * Contents
@@ -80,7 +106,7 @@ html {
   color: #fff;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 2rem;
 }
 
 /* Sidebar nav */
